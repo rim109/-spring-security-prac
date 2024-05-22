@@ -41,4 +41,4 @@ public class SecurityConfig {
 }
 // Customizer.withDefaults()는 기본 설정이다.
 // 보통은 YML 파일에 name과 password를 작성하여 하는 방법도 있지만, UserDetailsService 로 해서 인메모리에 직접 저장하여 설정해줄수 있으며 여러 개도 설정 가능하다.
-// alwaysRemember 언제든지 기억하겠다라는 뜻! true로 설정해주실시!
+// alwaysRemember 언제든지 기억하겠다라는 뜻! true로 설정해주실시! 체크를 하지 않더라도 된다 ㅎㅎ
